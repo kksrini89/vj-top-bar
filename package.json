@@ -1,15 +1,29 @@
 {
-  "name": "top-bar",
+  "name": "vj-top-bar",
   "version": "1.0.0",
-  "description": "",
+  "description": "Top header bar Vanilla JavaScript Web Component",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "top-bar",
+    "header-bar",
+    "top-header-bar",
+    "webcomponent",
+    "vanillajs-wecomponent"
+  ],
+  "author": "Srinivasan K K",
   "license": "ISC",
   "dependencies": {
     "@webcomponents/webcomponentsjs": "^2.4.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kksrini89/vj-top-bar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kksrini89/vj-top-bar/issues"
+  },
+  "homepage": "https://github.com/kksrini89/vj-top-bar#readme"
 }
