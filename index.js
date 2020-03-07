@@ -5,14 +5,13 @@ template.innerHTML = `
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        padding: 20px 0px;
         position: fixed;
         width: 100%;
         top: 0;
         min-height: 30px;
         background: var(--bg-color);
     }
-    
+
     .logo {
         margin-left: 5%;
         width: 60%;
@@ -22,7 +21,7 @@ template.innerHTML = `
       text-decoration: none;
       line-height: 10px;
     }
-    
+
     .logo #header-img {
         height: auto;
         width: 100%;
@@ -30,29 +29,34 @@ template.innerHTML = `
         vertical-align: middle;
         margin: auto;
     }
-    
+
     #header > #nav-bar {
         width: 30%;
     }
-    
+
     #header > #nav-bar .nav-links-container {
         display: flex;
         justify-content: flex-start;
         list-style: none;
     }
-    
+
     #header > #nav-bar .nav-links-container li{
-        margin: 0 15px;
+        padding: 10px 15px;
     }
-    
+
+    #header > #nav-bar .nav-links-container li:hover {
+      background-color: rgba(162, 12, 12, 0.2);
+    }
+
     #header > #nav-bar .nav-links-container li a:hover {
         cursor: pointer;
     }
-    
+
     #header > #nav-bar > .nav-links-container .nav-link {
         font-weight: 500;
         text-decoration: none;
         white-space: nowrap;
+        padding: 10px 25px;
     }
 
     .link-style {
@@ -100,7 +104,6 @@ class TopbarComponent extends HTMLElement {
     // if (this._links && this._links.length) this.setLinks();
 
     // if (this._config) this.setHeaderConfig();
-
   }
 
   disconnectedCallback() {}
