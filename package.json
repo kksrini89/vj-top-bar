@@ -1,6 +1,6 @@
 {
   "name": "vj-top-bar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Top header bar Vanilla JavaScript Web Component",
   "main": "dist/index.js",
   "files": ["dist"],
