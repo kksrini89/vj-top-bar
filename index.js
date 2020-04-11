@@ -1,3 +1,5 @@
+import loader from './node_modules/@webcomponents/webcomponentsjs/webcomponents-loader';
+
 const template = document.createElement('template');
 template.innerHTML = `
 <style>

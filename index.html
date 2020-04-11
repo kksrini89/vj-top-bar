@@ -5,29 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Top bar</title>
     <link rel="stylesheet" href="styles.css" />
-    <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
-    <script src="./index.js"></script>
-  </head>
-  <body>
-    <!-- Image URL -->
-    <vj-top-bar logo="https://cdn.pixabay.com/photo/2017/02/15/20/58/ekg-2069872_1280.png">
-      <span class="logo-title" slot="logo_title">VJ-Topbar</span>
-    </vj-top-bar>
-    
-    <!-- Empty logo -->
-    <!-- <vj-top-bar logo="">
-      <span class="logo-title" slot="logo_title">VJ-Topbar</span>
-    </vj-top-bar> -->
-    
-    <!-- Relative path Image -->
-    <!-- <vj-top-bar logo="./assets/images/eat_code.jpg">
-        <span slot="logo_title">VJ-Topbar</span>
-      </vj-top-bar> -->
-
-    <section id="grey"></section>
-    <section id="red"></section>
-    <section id="blue"></section>
-    <script>
+    <script type="module" src="./index.js"></script>
+    <script inline="inline">
       // To assign links attribute of VJ-Topbar Web component
       const topBar = document.getElementsByTagName('vj-top-bar');
       if (topBar && topBar.length && topBar[0]) {
@@ -46,5 +25,25 @@
         );
       }
     </script>
+  </head>
+  <body>
+    <!-- Image URL -->
+    <vj-top-bar logo="https://cdn.pixabay.com/photo/2017/02/15/20/58/ekg-2069872_1280.png">
+      <span class="logo-title" slot="logo_title">VJ-Topbar</span>
+    </vj-top-bar>
+
+    <!-- Empty logo -->
+    <!-- <vj-top-bar logo="">
+      <span class="logo-title" slot="logo_title">VJ-Topbar</span>
+    </vj-top-bar> -->
+
+    <!-- Relative path Image -->
+    <!-- <vj-top-bar logo="./assets/images/eat_code.jpg">
+        <span slot="logo_title">VJ-Topbar</span>
+      </vj-top-bar> -->
+
+    <section id="grey"></section>
+    <section id="red"></section>
+    <section id="blue"></section>
   </body>
 </html>
